@@ -11,6 +11,9 @@ p{
     margin-top: 20px;
     font-size: 16px;
 }
+a{
+    font-size: 16px;
+}
 .container{
     margin-top: 30px;
    display: flex;
@@ -126,3 +129,37 @@ middle-bar section style
     height: 160px;
     width: 280px;
  }
+ /*============= footer==============
+  */
+  .f-item{
+    margin: 30px;
+   padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 250px; */
+    color: aliceblue;
+    background-color: black;
+  }
+  .footer_nav{
+    margin-top: 50px;
+  }
+  .footer_nav>ul>li{
+    margin: 20px;
+    list-style-type: none;
+    float: right;
+    text-decoration: none;
+   
+  }
+  .footer_nav>ul>li>a{
+    color: antiquewhite;
+    text-decoration: none;
+   
+  }
+  /* socila media */
+.filled{
+    
+    margin-left: 50px;
+
+  }
