@@ -6,30 +6,52 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .container{
+    margin-top: 30px;
    display: flex;
    flex-direction: column;
    align-items: center;
     height: 100%;
     width: 100%;
+    margin: o auto;
    
 }
 .header_item{
     display: flex;
-    width: 870px;
+    width: 1221px;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
     background-image: url(/images/Rectangle\ 2.png);
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    border-radius: 30px;
     
 }
-.header_item>.header_text{
-    
-   width: 100%;
-    
+.header_text{
+    padding: 30px 70px;
+    color: aliceblue;
+    width: 80%; 
 }
-.header_item>.header_img{
-   width: 100%;
-    
+.header_text h1{
+    font-weight:bold;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.header_text p{
+   font-weight: 100;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.header_img>img{
+  padding-top: 40px;
+  padding-left: 40px;
+  margin-left: 20px;
+  width: 75%; 
+}
+
+button{
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: rgba(221, 0, 0, 1);
 }
