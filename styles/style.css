@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    height: 100%;
+    width: 100%;
+   
+}
+.header_item{
+    display: flex;
+    width: 870px;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/Rectangle\ 2.png);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.header_item>.header_text{
+    
+   width: 100%;
+    
+}
+.header_item>.header_img{
+   width: 100%;
+    
+}
