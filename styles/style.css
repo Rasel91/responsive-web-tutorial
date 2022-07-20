@@ -56,14 +56,14 @@ a{
 .header_img{
   height: 100%;
   width: 50%;
-  /* position: relative; */
+  position: relative;
   
 }
-.header_img>img{
+.header_img > img{
   height: 100%;
-  width: 50%;
+  width: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: left;
  
 }
 
@@ -158,10 +158,19 @@ middle-bar section style
     height: 60%;
     width: 100%;
  }
+
+.reviw{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
  /*============= footer==============
   */
   .f-item{
-    margin: 8%;
+    margin-top: 8%;
    padding: 50px;
     display: flex;
     justify-content: center;
@@ -202,23 +211,23 @@ middle-bar section style
   -------------- */
 
   /* ---------mobile devisc---------------- */
-
-  @media only screen and (max-width: 688px) {
-    .header_text{
-      width: 100%;
-    }  
-    .header_img{
-      width: 100%;
-    }
-    .header_item{
-      flex-direction: column-reverse;
-     
-    }
-    
   
+  @media only screen and (max-width: 688px) {
+    .header_item {
+      height: 90vh;
+      flex-direction: column-reverse;
+    }
+    .header_text {
+      width: 100%;
+    }
+    .card__image {
+      width: 100%;
+    }
   }
 
-  /* ---------Tablate devisc---------------- */
-  /* @media only screen and (min-width:688px) and (max-width:992px){
-    
-  } */
+
+
+
+
+  
+
